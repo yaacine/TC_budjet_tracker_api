@@ -1,0 +1,1 @@
+web: gunicorn tc_budjet_tracker.wsgi --log-file -
