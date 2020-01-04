@@ -26,7 +26,7 @@ SECRET_KEY = '3v)%c3!7ks(q=ad&cu^d=a_7gzio!0r%+f4!zoqgn6u&c)c#t-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', True)
 
-ALLOWED_HOSTS = ['.tc-money-tracker.herokuapp.com']
+ALLOWED_HOSTS = ['*','.tc-money-tracker.herokuapp.com']
 if DEBUG:
     ALLOWED_HOSTS += ['localhost', '127.0.0.1', '10.0.2.2','herokudjangoapp.herokuapp.com']
 
