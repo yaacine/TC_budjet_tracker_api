@@ -28,7 +28,7 @@ DEBUG = os.environ.get('DEBUG', True)
 
 ALLOWED_HOSTS = ['.tc-money-tracker.herokuapp.com']
 if DEBUG:
-    ALLOWED_HOSTS += ['localhost', '127.0.0.1', '10.0.2.2']
+    ALLOWED_HOSTS += ['localhost', '127.0.0.1', '10.0.2.2','herokudjangoapp.herokuapp.com']
 
 # Application definition
 
